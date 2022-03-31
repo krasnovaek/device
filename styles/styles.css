@@ -21,5 +21,64 @@
 }
 
 body {
-
+  font-family: "raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: #fbf7f4;
 }
+
+.button {
+  font-family: "raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 800;
+  text-align: center;
+  color: #000000;
+  background-color: #ffe17f;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.appointment-email {
+  background-color: #ffe17f;
+}
+
+.navigation-list {
+  font-family: "rubik", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  background-color: #ffe17f;
+}
+
+.about_us {
+  font-family: "rubik", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.transport {
+  font-family: "rubik", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.contacts {
+  font-family: "rubik", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.page-footer {
+  background-color: #444444;
+  color: #ffffff;
+}
+
+.footer-icon::before {
+  content: "";
+  background-image: url("../images/iconfooter.svg");
+  width: 145px;
+  height: 36px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
