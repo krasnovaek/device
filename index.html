@@ -1,12 +1,137 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: {{projectTitle}}</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: device - Главная</title>
+</head>
 
-  </body>
+<body>
+  <header class="page-header">
+    <nav class="navigation">
+      <h2>device</h2>
+      <div class="appointment-email">
+        <label class="visually-hidden" for="appointment-form-search">Текст поиска</label>
+        <input type="search" id="appointment-form-search" name="appointment-form-search" placeholder="Текст поиска">
+        <button class="button appointment-form-buttom" type="submit">Найти</button>
+      </div>
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="navigation-link" href="#" aria-current="page">Войти</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">Сравнить</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#" aria-current="page">Корзина</a>
+        </li>
+      </ul>
+      <ul class="navigation-list navigation-user">
+        <li class="navigation-item">
+          <a class="navigation-link" href="#" aria-current="page">КАТАЛОГ ТОВАРОВ</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#" aria-current="page">ДОСТАВКА</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#" aria-current="page">ГАРАНТИИ</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#" aria-current="page">КОНТАНКТЫ</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <img src="images/slider-1.png" width="560" height="560" alt="slider">
+  <p>01</p>
+  <h1>Порхает как бабочка, жалит как пчела!</h1>
+  <p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
+  <p>Подробнее</p>
+  <p>800 м</p>
+  <p>50 м</p>
+  <p>Дальность полета</p>
+  <p>Радиус поражения</p>
+  <ul class="catalog-list">
+    <li class="catalog-item">
+      Виртуальная реальность</li>
+    <li class="catalog-item">
+      Моноподы для селфи</li>
+    <li class="catalog-item">
+      Экшн-камеры</li>
+    <li class="catalog-item">
+      Фитнес-браслеты</li>
+    <li class="catalog-item">
+      Умные часы</li>
+    <li class="catalog-item">
+      Квадрокоптеры</li>
+  </ul>
+  <a class="button" href="#">Доставка</a>
+  <p>Доставка</p>
+  <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем,
+    поднимая
+    его на ваш этаж.</p>
+  <a class="button" href="#">Гарантия</a>
+  <a class="button" href="#">Кредит</a>
+  <p>Доставим редкий товар под заказ</p>
+  <section class="about us">
+    <h2>О нас</h2>
+    <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.
+    </p>
+    <p>Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:</p>
+    <ul class="transport">
+      <li class="transport-item">Меловые линии</li>
+      <li class="transport-item">СДИК</li>
+      <li class="transport-item">ТоксБерри</li>
+    </ul>
+    <a class="button " href="#">Подробнее о нас</a>
+  </section>
+  <section class="contacts">
+    <h2>Контакты</h2>
+    <p>Вы можете забрать товар сами, заехав в наш офис. Заодно сможете проверить работоспособность покупки.>
+    </p>
+    <p>Интернет-магазин «Девайс»</p>
+    <p>Санкт-Петербург, набережная реки Карповки, 5, литера П.+7 (812) 812-12-12</p>
+    <p>Время работы</p>
+    <p>пн—пт: с 10:00 до 22:00 сб—вс: с 10:00 до 19:00</p>
+    <a class="button " href="#">Напишите нам</a>
+  </section>
+  <section class="mailing list">
+    <h2>Подпишитесь на рассылку</h2>
+    <p>Еженедельный дайджест с обзорами новинок,
+      длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.</p>
+    <input type="email" id="appointment-form-email" name="appointment-form-email" placeholder="Ваш e-mail">
+    <button class="button" type="submit">Подписаться</button>
+    <p>Это бесплатно</p>
+  </section>
+  <footer class="page-footer">
+    <p>Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+    <ul class="footer-list">
+      <li class="footer-item">Доставка</li>
+      <li class="footer-item">Гарантия</li>
+      <li class="footer-item">Контакты</li>
+    </ul>
+    <a class="contacts-phone" href="tel:+74956660266">Тел.: +7 (812) 812-12-12</a>
+    <ul class="footer-social-list">
+      <li class="footer-social-item">
+        <a class="footer-social-link" href="#">
+          <span class="visually-hidden">facebook</span>
+        </a>
+      </li>
+      <li class="footer-social-item">
+        <a class="footer-social-link" href="#">
+          <span class="visually-hidden">instagram</span>
+        </a>
+      </li>
+      <li class="footer-social-item">
+        <a class="footer-social-link" href="#">
+          <span class="visually-hidden">twitter</span>
+        </a>
+      </li>
+    </ul>
+    <a class="footer-social-link footer-social-ht" href="#">
+      <span class="visually-hidden">htmlacademy</span>
+    </a>
+  </footer>
+</body>
+
 </html>
