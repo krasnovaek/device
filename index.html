@@ -9,98 +9,105 @@
 
 <body>
   <header class="page-header">
+    <img class="logo-image" src="images/logo.svg" width="145" height="36" alt="Логотип device">
+    <form class="appointment-email">
+      <label class="visually-hidden" for="appointment-form-search"></label>
+      <input type="search" id="appointment-form-search" name="appointment-form-search" placeholder="Текст поиска">
+      <button class="button appointment-form-buttom" type="submit">Найти</button>
+    </form>
+    <ul class="searh-list">
+      <li class="search-item">
+        <a class="search-link" href="#" aria-current="page">Войти</a>
+      </li>
+      <li class="search-item">
+        <a class="search-link" href="#" aria-current="page">Сравнить</a>
+      </li>
+      <li class="search-item">
+        <a class="search-link" href="#" aria-current="page">Корзина</a>
+      </li>
+    </ul>
     <nav class="navigation">
-      <img class="logo-image" src="images/logo.svg" width="145" height="36" alt="Логотип device">
-      <div class="appointment-email">
-        <label class="visually-hidden" for="appointment-form-search"></label>
-        <input type="search" id="appointment-form-search" name="appointment-form-search" placeholder="Текст поиска">
-        <button class="button appointment-form-buttom" type="submit">Найти</button>
-      </div>
-      <ul class="navigation-list">
+      <ul class="catalog-product">
         <li class="navigation-item">
-          <a class="navigation-link" href="#" aria-current="page">Войти</a>
+          <a class="navigation-link" href="#" aria-current="page">Каталог товаров</a>
+          <img class="plus" src="images/Groupplus.svg" width="50" height="50" alt="plus">
         </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">Сравнить</a>
+        <li class="navigation-item-catalog">Виртуальная реальность</li>
+        <li class="navigation-item-catalog">Моноподы для cелфи</li>
+        <li class="navigation-item-catalog">Экшн-камеры
         </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#" aria-current="page">Корзина</a>
-        </li>
+        <li class="navigation-item-catalog">Фитнес-браслеты</li>
+        <li class="navigation-item-catalog">Умные часы</li>
+        <li class="navigation-item-catalog">Квадрокоптеры</li>
       </ul>
-      <ul class="navigation-list navigation-user">
-        <li class="navigation-item">
-          <a class="navigation-link" href="#" aria-current="page">КАТАЛОГ ТОВАРОВ</a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#" aria-current="page">ДОСТАВКА</a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#" aria-current="page">ГАРАНТИИ</a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#" aria-current="page">КОНТАНКТЫ</a>
-        </li>
-      </ul>
+      <a class="navigation-link" href="#" aria-current="page">Доставка</a>
+      <a class="navigation-link" href="#" aria-current="page">Гарантии</a>
+      <a class="navigation-link" href="#" aria-current="page">Контакты</a>
     </nav>
   </header>
-  <img src="images/slider-1.png" width="560" height="560" alt="slider">
-  <p>01</p>
-  <h1>Порхает как бабочка, жалит как пчела!</h1>
-  <p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
-  <a class="button" href="#">Подробнее</a>
-  <img src="images/Frame.png" width="307" height="72" alt="frame">
-  <ul class="catalog-list">
-    <li class="catalog-item">
-      Виртуальная реальность</li>
-    <li class="catalog-item">
-      Моноподы для селфи</li>
-    <li class="catalog-item">
-      Экшн-камеры</li>
-    <li class="catalog-item">
-      Фитнес-браслеты</li>
-    <li class="catalog-item">
-      Умные часы</li>
-    <li class="catalog-item">
-      Квадрокоптеры</li>
-  </ul>
-  <a class="button" href="#">Доставка</a>
-  <p>Доставка</p>
-  <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем,
-    поднимая
-    его на ваш этаж.</p>
-  <a class="button" href="#">Гарантия</a>
-  <a class="button" href="#">Кредит</a>
-  <p>Доставим редкий товар под заказ</p>
-  <section class="about_us">
-    <h2>О нас</h2>
-    <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.
-    </p>
-    <p>Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:</p>
-    <ul class="transport">
-      <li class="transport-item">Меловые линии</li>
-      <li class="transport-item">СДИК</li>
-      <li class="transport-item">ТоксБерри</li>
+  <main>
+    <h1 class="visually-hidden">магазин девайс</h1>
+    <img src="images/slider-1.png" width="560" height="560" alt="slider">
+    <p>01</p>
+    <h2>Порхает как бабочка, жалит как пчела!</h2>
+    <p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
+    <a class="button" href="#">Подробнее</a>
+    <img src="images/Frame.png" width="307" height="72" alt="frame">
+    <ul class="catalog-list">
+      <li class="catalog-item">
+        Виртуальная реальность</li>
+      <li class="catalog-item">
+        Моноподы для селфи</li>
+      <li class="catalog-item">
+        Экшн-камеры</li>
+      <li class="catalog-item">
+        Фитнес-браслеты</li>
+      <li class="catalog-item">
+        Умные часы</li>
+      <li class="catalog-item">
+        Квадрокоптеры</li>
     </ul>
-    <a class="button " href="#">Подробнее о нас</a>
-  </section>
-  <section class="contacts">
-    <h2>Контакты</h2>
-    <p>Вы можете забрать товар сами, заехав в наш офис. Заодно сможете проверить работоспособность покупки.
-    </p>
-    <p>Интернет-магазин «Девайс»</p>
-    <p>Санкт-Петербург, набережная реки Карповки, 5, литера П.+7 (812) 812-12-12</p>
-    <p>Время работы</p>
-    <p>пн—пт: с 10:00 до 22:00 сб—вс: с 10:00 до 19:00</p>
-    <a class="button " href="#">Напишите нам</a>
-  </section>
-  <section class="mailing list">
-    <h2>Подпишитесь на рассылку</h2>
-    <p>Еженедельный дайджест с обзорами новинок,
-      длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.</p>
-    <input type="email" id="appointment-form-email" name="appointment-form-email" placeholder="Ваш e-mail">
-    <button class="button" type="submit">Подписаться</button>
-    <p>Это бесплатно</p>
-  </section>
+    <a class="button" href="#">Доставка</a>
+    <p>Доставка</p>
+    <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем,
+      поднимая
+      его на ваш этаж.</p>
+    <a class="button" href="#">Гарантия</a>
+    <a class="button" href="#">Кредит</a>
+    <p>Доставим редкий товар под заказ</p>
+    <section class="about_us">
+      <h2>О нас</h2>
+      <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.
+      </p>
+      <p>Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:</p>
+      <ul class="transport">
+        <li class="transport-item">Меловые линии</li>
+        <li class="transport-item">СДИК</li>
+        <li class="transport-item">ТоксБерри</li>
+      </ul>
+      <a class="button " href="#">Подробнее о нас</a>
+    </section>
+    <section class="contacts">
+      <h2>Контакты</h2>
+      <p>Вы можете забрать товар сами, заехав в наш офис. Заодно сможете проверить работоспособность покупки.
+      </p>
+      <p>Интернет-магазин «Девайс»</p>
+      <p>Санкт-Петербург, набережная реки Карповки, 5, литера П.+7 (812) 812-12-12</p>
+      <p>Время работы</p>
+      <p>пн—пт: с 10:00 до 22:00 сб—вс: с 10:00 до 19:00</p>
+      <a class="button " href="#">Напишите нам</a>
+    </section>
+    <section class="mailing list">
+      <h2>Подпишитесь на рассылку</h2>
+      <p>Еженедельный дайджест с обзорами новинок,
+        длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.</p>
+      <form class="appointment-form-email">
+        <input type="email" id="appointment-form-email" name="appointment-form-email" placeholder="Ваш e-mail">
+        <button class="button" type="submit">Подписаться</button>
+      </form>
+      <p>Это бесплатно</p>
+    </section>
+  </main>
   <footer class="page-footer">
     <a class="footer-icon" href="#">
       <span class="visually-hidden">device</span>
