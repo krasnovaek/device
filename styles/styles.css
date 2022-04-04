@@ -27,6 +27,25 @@ body {
   background-color: #fbf7f4;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.page-header {
+  background-color: #ffe17f;
+}
+
+.searh-list {
+  list-style-type: none;
+}
+
 .button {
   font-family: "raleway", sans-serif;
   font-size: 18px;
@@ -43,11 +62,62 @@ body {
   background-color: #ffe17f;
 }
 
+.navigation {
+  list-style-type: none;
+}
+
 .navigation-list {
   font-family: "rubik", sans-serif;
   font-size: 18px;
   line-height: 30px;
   background-color: #ffe17f;
+}
+
+.navigation-item-catalog {
+  list-style-type: none;
+}
+
+.number-slider {
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 30px;
+}
+
+.slider-title {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.slider-text {
+  font-family: "rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.slidersize {
+  font-family: "rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 30px;
+}
+
+.description-slider {
+  font-family: "rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.delivery-text {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
 }
 
 .about_us {
@@ -62,10 +132,43 @@ body {
   font-size: 18px;
 }
 
+
+.allcontacts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .contacts {
   font-family: "rubik", sans-serif;
   font-weight: 400;
   font-size: 18px;
+}
+
+.contacts-title {
+  font-family: "rubik", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.mailing-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mailing-list-title {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.mailing-list-title-text {
+  font-family: "rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #444444;
 }
 
 .page-footer {
@@ -73,12 +176,71 @@ body {
   color: #ffffff;
 }
 
-.footer-icon::before {
-  content: "";
-  background-image: url("../images/iconfooter.svg");
-  width: 145px;
-  height: 36px;
+.logo-image-footer {
+  margin-top: 62px;
+  margin-left: 141px;
+}
+
+.footer-social-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.footer-item {
+  font-size: 18px;
+  line-height: 21px;
+  font-style: normal;
+  font-weight: 800;
+  color: #ffffff;
+  list-style-type: none;
+}
+
+.contacts-phone {
+  font-family: "rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.footer-social-link {
+  display: flex;
+}
+
+.footer-social-link::before {
+  width: 40px;
+  height: 40px;
   background-repeat: no-repeat;
   background-position: center;
 }
 
+.footer-social-fa::before {
+  content: "";
+  background-image: url("../images/facebook.svg");
+}
+
+.footer-social-yo::before {
+  content: "";
+  background-image: url("../images/yotube.svg");
+}
+
+.footer-social-tw::before {
+  content: "";
+  background-image: url("../images/twitter.svg");
+}
+
+.footer-social-ht {
+  width: 115px;
+  height: 33px;
+  background-image: url("../images/ht.svg");
+}
+
+.footer-adress {
+  font-family: "rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}

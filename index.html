@@ -10,22 +10,24 @@
 <body>
   <header class="page-header">
     <img class="logo-image" src="images/logo.svg" width="145" height="36" alt="Логотип device">
-    <form class="appointment-email">
-      <label class="visually-hidden" for="appointment-form-search"></label>
-      <input type="search" id="appointment-form-search" name="appointment-form-search" placeholder="Текст поиска">
-      <button class="button appointment-form-buttom" type="submit">Найти</button>
-    </form>
-    <ul class="searh-list">
-      <li class="search-item">
-        <a class="search-link" href="#" aria-current="page">Войти</a>
-      </li>
-      <li class="search-item">
-        <a class="search-link" href="#" aria-current="page">Сравнить</a>
-      </li>
-      <li class="search-item">
-        <a class="search-link" href="#" aria-current="page">Корзина</a>
-      </li>
-    </ul>
+    <div class="searh-menu">
+      <form class="appointment-email">
+        <label class="visually-hidden" for="appointment-form-search"></label>
+        <input type="search" id="appointment-form-search" name="appointment-form-search" placeholder="Текст поиска">
+        <button class="buttom appointment-form-buttom" type="submit">Найти</button>
+      </form>
+      <ul class="searh-list">
+        <li class="search-item">
+          <a class="search-link" href="#" aria-current="page">Войти</a>
+        </li>
+        <li class="search-item">
+          <a class="search-link" href="#" aria-current="page">Сравнить</a>
+        </li>
+        <li class="search-item">
+          <a class="search-link" href="#" aria-current="page">Корзина</a>
+        </li>
+      </ul>
+    </div>
     <nav class="navigation">
       <ul class="catalog-product">
         <li class="navigation-item">
@@ -46,99 +48,161 @@
     </nav>
   </header>
   <main>
-    <h1 class="visually-hidden">магазин девайс</h1>
-    <img src="images/slider-1.png" width="560" height="560" alt="slider">
-    <p>01</p>
-    <h2>Порхает как бабочка, жалит как пчела!</h2>
-    <p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
-    <a class="button" href="#">Подробнее</a>
-    <img src="images/Frame.png" width="307" height="72" alt="frame">
-    <ul class="catalog-list">
-      <li class="catalog-item">
-        Виртуальная реальность</li>
-      <li class="catalog-item">
-        Моноподы для селфи</li>
-      <li class="catalog-item">
-        Экшн-камеры</li>
-      <li class="catalog-item">
-        Фитнес-браслеты</li>
-      <li class="catalog-item">
-        Умные часы</li>
-      <li class="catalog-item">
-        Квадрокоптеры</li>
-    </ul>
-    <a class="button" href="#">Доставка</a>
-    <p>Доставка</p>
-    <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем,
-      поднимая
-      его на ваш этаж.</p>
-    <a class="button" href="#">Гарантия</a>
-    <a class="button" href="#">Кредит</a>
-    <p>Доставим редкий товар под заказ</p>
-    <section class="about_us">
-      <h2>О нас</h2>
-      <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.
+    <section class="slider-menu">
+      <h1 class="visually-hidden">магазин девайс</h1>
+      <img src="images/slider-1.png" width="560" height="560" alt="slider">
+      <p class="number-slider">01</p>
+      <h2 class="slider-title">Порхает как бабочка, жалит как пчела!</h2>
+      <p class="slider-text">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под
+        стандартную камеру.
       </p>
-      <p>Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:</p>
-      <ul class="transport">
-        <li class="transport-item">Меловые линии</li>
-        <li class="transport-item">СДИК</li>
-        <li class="transport-item">ТоксБерри</li>
+      <a class=" button" href="#">Подробнее</a>
+      <p class="slidersize">800 м</p>
+      <p class="description-slider">Дальность полета</p>
+      <p class="slidersize"> 50 м</p>
+      <p class="description-slider">Радиус поражения</p>
+      <img src="images/slider-2.png" width="560" height="560" alt="slider">
+      <p class="number-slider">02</p>
+      <h2 class="slider-title">Худеем правильно!</h2>
+      <p class="slider-text">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать
+        диету.
+      </p>
+      <a class="button" href="#">Подробнее</a>
+      <p class="slidersize">48 часов</p>
+      <p class="description-slider">Без подзарядки</p>
+      <img src="images/slider-3.png" width="560" height="560" alt="slider">
+      <p class="number-slider">03</p>
+      <h2 class="slider-title">Делай селфи, как Бен Стиллер!</h2>
+      <p class="slider-text">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать
+        диету.
+      </p>
+      <a class=" button" href="#">Подробнее</a>
+      <p class="slidersize">8,5 м</p>
+      <p class="description-slider">Длина палки</p>
+      <p class="slidersize">5 кг</p>
+      <p class="description-slider">Вес палки</p>
+      <p class="slidersize">Карбон</p>
+      <p class="description-slider">Материал</p>
+    </section>
+    <section>
+      <h2 class="visually-hidden">меню</h2>
+      <ul class="catalog-list">
+        <li class="catalog-item">
+          Виртуальная реальность</li>
+        <li class="catalog-item">
+          Моноподы для селфи</li>
+        <li class="catalog-item">
+          Экшн-камеры</li>
+        <li class="catalog-item">
+          Фитнес-браслеты</li>
+        <li class="catalog-item">
+          Умные часы</li>
+        <li class="catalog-item">
+          Квадрокоптеры</li>
       </ul>
-      <a class="button " href="#">Подробнее о нас</a>
     </section>
-    <section class="contacts">
-      <h2>Контакты</h2>
-      <p>Вы можете забрать товар сами, заехав в наш офис. Заодно сможете проверить работоспособность покупки.
-      </p>
-      <p>Интернет-магазин «Девайс»</p>
-      <p>Санкт-Петербург, набережная реки Карповки, 5, литера П.+7 (812) 812-12-12</p>
-      <p>Время работы</p>
-      <p>пн—пт: с 10:00 до 22:00 сб—вс: с 10:00 до 19:00</p>
-      <a class="button " href="#">Напишите нам</a>
+    <section class="servises">
+      <h2 class="visually-hidden">меню</h2>
+      <ul>
+        <li>
+          <a class="button" href="#">Доставка</a>
+        </li>
+        <li>
+          <a class="button" href="#">Гарантия</a>
+        </li>
+        <li>
+          <a class="button" href="#">Кредит</a>
+        </li>
+      </ul>
+      <p class="slider-title">Доставка</p>
+      <p class="description-slider">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!
+        Ведь мы неплохо заработаем,
+        поднимая
+        его на ваш этаж.</p>
+      <p class="slider-title">Гарантия</p>
+      <p class="description-slider">Если из-за возгорания купленного у нас товара у вас
+        сгорит дом — не переживайте, мы выдадим вам новый.
+        Товар, не дом, конечно же.</p>
+      <p class="slider-title">Кредит</p>
+      <p class="description-slider">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее
+        выгодные условия кредита.
+        Выгодные
+        для банка, разумеется.</p>
     </section>
-    <section class="mailing list">
-      <h2>Подпишитесь на рассылку</h2>
-      <p>Еженедельный дайджест с обзорами новинок,
-        длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.</p>
+    <section>
+      <h2 class="visually-hidden">Доставка</h2>
+      <p class="delivery-text">Доставим редкий товар под заказ</p>
+    </section>
+    <section class="allcontacts">
+      <h2 class="visually-hidden">все контакты</h2>
+      <section class="about_us">
+        <h2 class="slider-title">О нас</h2>
+        <p class="slider-text">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.
+        </p>
+        <p class="slider-text">Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:
+        </p>
+        <ul class="transport">
+          <li class="transport-item">Меловые линии</li>
+          <li class="transport-item">СДИК</li>
+          <li class="transport-item">ТоксБерри</li>
+        </ul>
+        <a class="button " href="#">Подробнее о нас</a>
+      </section>
+      <section class="contacts">
+        <h2 class="slider-title">Контакты</h2>
+        <p class="slider-text">Вы можете забрать товар сами, заехав в наш офис. Заодно сможете проверить
+          работоспособность покупки.
+        </p>
+        <p class="contacts-title">Интернет-магазин «Девайс»</p>
+        <p class="slider-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.+7 (812) 812-12-12</p>
+        <p class="contacts-title">Время работы</p>
+        <p>пн—пт: с 10:00 до 22:00 сб—вс: с 10:00 до 19:00</p>
+        <a class="button " href="#">Напишите нам</a>
+      </section>
+    </section>
+    <section class="mailing-list">
+      <h2 class="mailing-list-title">Подпишитесь<br> на рассылку</h2>
+      <p class="mailing-list-title-text">Еженедельный дайджест с обзорами новинок,<br>
+        длительными тест-драйвами, распаковками, а также акции,<br> спецпредложения и вот это вот всё.</p>
       <form class="appointment-form-email">
         <input type="email" id="appointment-form-email" name="appointment-form-email" placeholder="Ваш e-mail">
         <button class="button" type="submit">Подписаться</button>
       </form>
-      <p>Это бесплатно</p>
+      <p class="mailing-list-title-text">Это бесплатно</p>
     </section>
   </main>
   <footer class="page-footer">
-    <a class="footer-icon" href="#">
-      <span class="visually-hidden">device</span>
-    </a>
-    <p>Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+    <img class="logo-image-footer" src="images/logo2.svg" width="145" height="36" alt="Логотип device">
+    <p class="footer-adress">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
     <ul class="footer-list">
       <li class="footer-item">Доставка</li>
       <li class="footer-item">Гарантия</li>
       <li class="footer-item">Контакты</li>
     </ul>
-    <a class="contacts-phone" href="tel:+74956660266">Тел.: +7 (812) 812-12-12</a>
-    <ul class="footer-social-list">
-      <li class="footer-social-item">
-        <a class="footer-social-link" href="#">
-          <span class="visually-hidden">facebook</span>
-        </a>
-      </li>
-      <li class="footer-social-item">
-        <a class="footer-social-link" href="#">
-          <span class="visually-hidden">instagram</span>
-        </a>
-      </li>
-      <li class="footer-social-item">
-        <a class="footer-social-link" href="#">
-          <span class="visually-hidden">twitter</span>
-        </a>
-      </li>
-    </ul>
-    <a class="footer-social-link footer-social-ht" href="#">
-      <span class="visually-hidden">htmlacademy</span>
-    </a>
+    <div class="socialgroup">
+      <a class="contacts-phone" href="tel:+74956660266">Тел.: +7 (812) 812-12-12</a>
+      <img class="vector-image-footer" src="images/Vectorfooter.svg" width="80" height="7" alt="vector footer">
+      <ul class="footer-social-list">
+        <li class="footer-social-item">
+          <a class="footer-social-link footer-social-fa" href="#">
+            <span class="visually-hidden">facebook</span>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="footer-social-link footer-social-yo" href="#">
+            <span class="visually-hidden">instagram</span>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="footer-social-link footer-social-tw" href="#">
+            <span class="visually-hidden">twitter</span>
+          </a>
+        </li>
+      </ul>
+      <a class="footer-social-link footer-social-ht" href="#">
+        <span class="visually-hidden">htmlacademy</span>
+      </a>
+    </div>
   </footer>
 </body>
 
