@@ -10,20 +10,26 @@
 <body>
   <header class="page-header">
     <img class="logo-image" src="images/logo.svg" width="145" height="36" alt="Логотип device">
-    <div class="searh-menu">
-      <form class="appointment-email">
-        <label class="visually-hidden" for="appointment-form-search"></label>
-        <input type="search" id="appointment-form-search" name="appointment-form-search" placeholder="Текст поиска">
-        <button class="button appointment-form-button" type="submit">Найти</button>
-      </form>
+    <div class="menu-search-form">
+      <div class="searh-menu">
+        <form class="appointment-email">
+          <label class="visually-hidden" for="appointment-form-search"></label>
+          <input type="search" id="appointment-form-search" name="appointment-form-search" placeholder="Текст поиска">
+          <button class="button appointment-form-button" type="submit">Найти</button>
+        </form>
+      </div>
+      <div class="enter">
+        <img class="human-icon" src="images/human.svg" width="13" height="12" alt="human">
+        <a class="search-link" href="#" aria-current="page">Войти</a>
+      </div>
       <ul class="searh-list">
         <li class="search-item">
-          <a class="search-link" href="#" aria-current="page">Войти</a>
-        </li>
-        <li class="search-item">
+          <img class="compare-icon" src="images/compare.svg" width="10" height="12" alt="compare">
           <a class="search-link" href="#" aria-current="page">Сравнить</a>
         </li>
         <li class="search-item">
+          <img class="two-icon" src="images/two.svg" width="16" height="14" alt="two">
+          <img class="basket-icon" src="images/basket.svg" width="16" height="14" alt="basket">
           <a class="search-link" href="#" aria-current="page">Корзина</a>
         </li>
       </ul>
@@ -42,9 +48,11 @@
         <li class="navigation-item-catalog">Умные часы</li>
         <li class="navigation-item-catalog">Квадрокоптеры</li>
       </ul>
-      <a class="navigation-link" href="#" aria-current="page">Доставка</a>
-      <a class="navigation-link" href="#" aria-current="page">Гарантии</a>
-      <a class="navigation-link" href="#" aria-current="page">Контакты</a>
+      <div class="navigation-list">
+        <a class="navigation-link" href="#" aria-current="page">Доставка</a>
+        <a class="navigation-link" href="#" aria-current="page">Гарантии</a>
+        <a class="navigation-link" href="#" aria-current="page">Контакты</a>
+      </div>
     </nav>
   </header>
   <main>
@@ -86,12 +94,14 @@
     </section>
     <section class="catalog-menu-total">
       <h2 class="visually-hidden">меню</h2>
-      <img class="catalog-icon" src="images/virtual.svg" width="97" height="55" alt="virtual">
-      <img class="catalog-icon" src="images/monopod.svg" width="86" height="117" alt="monopod">
-      <img class="catalog-icon" src="images/camera.svg" width="71" height="87" alt="camera">
-      <img class="catalog-icon" src="images/fitnes.svg" width="107" height="65" alt="fitnes">
-      <img class="catalog-icon" src="images/watch.svg" width="56" height="98" alt="watch">
-      <img class="catalog-icon" src="images/kopter.svg" width="132" height="69" alt="kopter">
+      <div class="icon-catalog-total">
+        <img class="catalog-icon" src="images/virtual.svg" width="97" height="55" alt="virtual">
+        <img class="catalog-icon" src="images/monopod.svg" width="86" height="117" alt="monopod">
+        <img class="catalog-icon" src="images/camera.svg" width="71" height="87" alt="camera">
+        <img class="catalog-icon" src="images/fitnes.svg" width="107" height="65" alt="fitnes">
+        <img class="catalog-icon" src="images/watch.svg" width="56" height="98" alt="watch">
+        <img class="catalog-icon" src="images/kopter.svg" width="132" height="69" alt="kopter">
+      </div>
       <ul class="catalog-list">
         <li class="catalog-item">
           Виртуальная<br> реальность</li>
@@ -121,19 +131,24 @@
         </li>
       </ul>
       <p class="slider-title">Доставка</p>
-      <p class="description-slider">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!
-        Ведь мы неплохо заработаем,
+      <p class="description-slider">Мы с удовольствием доставим ваш товар прямо<br> к вашему подъезду совершенно
+        бесплатно!
+        Ведь<br> мы неплохо заработаем,
         поднимая
         его на ваш этаж.</p>
+      <img class="deliveri-icon" src="images/delivery.svg" width="136" height="164" alt="delivery">
       <p class="slider-title">Гарантия</p>
-      <p class="description-slider">Если из-за возгорания купленного у нас товара у вас
-        сгорит дом — не переживайте, мы выдадим вам новый.
+      <p class="description-slider">Если из-за возгорания купленного у нас<br> товара у вас
+        сгорит дом — не переживайте, мы выдадим вам новый.<br>
         Товар, не дом, конечно же.</p>
+      <img class="garantee-icon" src="images/garantee.svg" width="171" height="195" alt="garantee">
       <p class="slider-title">Кредит</p>
-      <p class="description-slider">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее
-        выгодные условия кредита.
+      <p class="description-slider">Залезть в долговую яму стало проще! Кредитные<br> консультанты подберут для вас
+        наиболее
+        выгодные<br> условия кредита.
         Выгодные
         для банка, разумеется.</p>
+      <img class="credit-icon" src="images/credit.svg" width="156" height="188" alt="credit">
     </section>
     <section>
       <h2 class="visually-hidden">Доставка</h2>
@@ -143,9 +158,10 @@
       <h2 class="visually-hidden">все контакты</h2>
       <section class="about_us">
         <h2 class="slider-title">О нас</h2>
-        <p class="slider-text">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.
+        <p class="slider-text">Огромный выбор гаджетов не оставит равнодушным<br> гика, который есть в каждом из нас.
         </p>
-        <p class="slider-text">Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:
+        <p class="slider-text">Мы можем доставить ваш товар в самые отдалённые<br> уголки России транспортными
+          компаниями:
         </p>
         <ul class="transport">
           <li class="transport-item">Меловые линии</li>
@@ -156,11 +172,11 @@
       </section>
       <section class="contacts">
         <h2 class="slider-title">Контакты</h2>
-        <p class="slider-text">Вы можете забрать товар сами, заехав в наш офис. Заодно сможете проверить
+        <p class="slider-text">Вы можете забрать товар сами, заехав в наш офис.<br>Заодно сможете проверить
           работоспособность покупки.
         </p>
         <p class="contacts-title">Интернет-магазин «Девайс»</p>
-        <p class="slider-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.+7 (812) 812-12-12</p>
+        <p class="slider-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.<br>+7 (812) 812-12-12</p>
         <p class="contacts-title">Время работы</p>
         <p>пн—пт: с 10:00 до 22:00 сб—вс: с 10:00 до 19:00</p>
         <a class="button " href="#">Напишите нам</a>

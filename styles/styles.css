@@ -44,13 +44,29 @@ body {
   background-color: #ffe17f;
 }
 
-.searh-list {
-  display: flex;
-  list-style-type: none;
+.menu-search-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .searh-menu {
   display: flex;
+}
+
+.searh-list {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  align-items: center;
+  list-style-type: none;
+}
+
+.human-icon {
+  margin-left: 27px;
+}
+
+.search-link {
+  margin-left: 13px;
 }
 
 .button {
@@ -62,24 +78,48 @@ body {
   color: #000000;
   background-color: #ffe17f;
   text-decoration: none;
-  text-transform: uppercase;
+}
+
+.search {
+  width: 359px;
+  height: 40px;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 50px 0 0 50px;
+}
+
+.appointment-form-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 56px;
+  padding-right: 56px;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 0 50px 50px 0;
 }
 
 .appointment-email {
   background-color: #ffe17f;
+  width: 359px;
+  height: 40px;
 }
 
 .navigation {
-  display: flex;
-  gap: 45px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   list-style-type: none;
 }
 
 .navigation-list {
   font-family: "rubik", sans-serif;
-  font-size: 18px;
-  line-height: 30px;
-  background-color: #ffe17f;
+  display: flex;
+  gap: 51px;
+  align-items: flex-start;
+  font-weight: 800;
+}
+
+.navigation-link {
+  text-transform: uppercase;
 }
 
 .catalog-product {
@@ -136,13 +176,21 @@ body {
 .catalog-list {
   display: flex;
   gap: 40px;
+  margin-left: 144px;
+  margin-right: 144px;
   list-style-type: none;
+}
+
+.icon-catalog-total {
+  display: flex;
+  gap: 40px;
+  margin-left: 144px;
+  margin-right: 144px;
 }
 
 .catalog-icon {
   width: 160px;
   height: 160px;
-  margin-left: 40px;
   background: #ffe17f;
 }
 
@@ -155,6 +203,8 @@ body {
   font-family: "rubik", sans-serif;
   font-weight: 400;
   font-size: 18px;
+  margin-left: 144px;
+  margin-right: 144px;
 }
 
 .transport {
@@ -186,6 +236,8 @@ body {
 .mailing-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-left: 147px;
+  margin-right: 133px;
 }
 
 .mailing-list-title {
