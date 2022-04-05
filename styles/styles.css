@@ -146,6 +146,11 @@ body {
   background: #ffe17f;
 }
 
+.catalog-item {
+  width: 160px;
+  height: 60px;
+}
+
 .about_us {
   font-family: "rubik", sans-serif;
   font-weight: 400;
