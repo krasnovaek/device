@@ -45,7 +45,12 @@ body {
 }
 
 .searh-list {
+  display: flex;
   list-style-type: none;
+}
+
+.searh-menu {
+  display: flex;
 }
 
 .button {
@@ -65,6 +70,8 @@ body {
 }
 
 .navigation {
+  display: flex;
+  gap: 45px;
   list-style-type: none;
 }
 
@@ -73,6 +80,10 @@ body {
   font-size: 18px;
   line-height: 30px;
   background-color: #ffe17f;
+}
+
+.catalog-product {
+  list-style-type: none;
 }
 
 .navigation-item-catalog {
@@ -120,6 +131,19 @@ body {
   font-size: 20px;
   line-height: 23px;
   text-transform: uppercase;
+}
+
+.catalog-list {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+}
+
+.catalog-icon {
+  width: 160px;
+  height: 160px;
+  margin-left: 40px;
+  background: #ffe17f;
 }
 
 .about_us {
