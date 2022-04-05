@@ -21,6 +21,8 @@
 }
 
 body {
+  width: 1440px;
+  margin: 0 auto;
   font-family: "raleway", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -181,9 +183,21 @@ body {
   margin-left: 141px;
 }
 
+.footer-contacts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 140px;
+}
+
 .footer-social-list {
   display: flex;
   list-style-type: none;
+  gap: 15px;
+}
+
+.footer-list {
+  display: flex;
+  gap: 35px;
 }
 
 .footer-item {
@@ -202,6 +216,14 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+  margin-left: 110px;
+  margin-right: 141px;
+}
+
+.socialgroup {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 141px;
 }
 
 .footer-social-link {
@@ -233,6 +255,8 @@ body {
 .footer-social-ht {
   width: 115px;
   height: 33px;
+  margin-left: 390px;
+  margin-right: 141px;
   background-image: url("../images/ht.svg");
 }
 
@@ -244,3 +268,4 @@ body {
   line-height: 20px;
   color: #ffffff;
 }
+
