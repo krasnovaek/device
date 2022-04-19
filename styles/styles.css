@@ -1394,14 +1394,14 @@ body {
   display: block;
   width: 40px;
   height: 40px;
+  border-radius: 2px;
 }
 
-.footer-social-link :hover .social-image circle {
-  fill: #ffc700;
-  fill-opacity: 1;
+.footer-social-link:hover {
+  background-color: #ffc700;
 }
 
-.footer-social-link :focus {
+.footer-social-link:focus {
   outline: 2px solid #af4fff;
 }
 
@@ -1412,18 +1412,21 @@ body {
   background-position: center;
 }
 
-.footer-social-fa::before {
-  content: "";
+.footer-social-fa {
+  width: 40px;
+  height: 40px;
   background-image: url("../images/facebook.svg");
 }
 
-.footer-social-ins::before {
-  content: "";
+.footer-social-ins {
+  width: 40px;
+  height: 40px;
   background-image: url("../images/yotube.svg");
 }
 
-.footer-social-tw::before {
-  content: "";
+.footer-social-tw {
+  width: 40px;
+  height: 40px;
   background-image: url("../images/twitter.svg");
 }
 
@@ -1432,3 +1435,4 @@ body {
   height: 34px;
   background-image: url("../images/ht.svg");
 }
+
