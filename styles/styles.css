@@ -350,13 +350,13 @@ body {
 
 .basket-item-button {
   position: absolute;
+  background-image: url("/device/images/basketvector.svg");
   top: 18px;
   right: 18px;
   width: 14px;
   height: 14px;
   margin: 0;
   padding: 0;
-  background: transparent;
   border: none;
   cursor: pointer;
 }
@@ -1359,19 +1359,6 @@ body {
   outline: 2px solid #af4fff;
 }
 
-.htmlacademy-link {
-  float: right;
-  height: 33px;
-}
-
-.htmlacademy-link:hover .htmlacademy-logo > path {
-  fill: #ffffff;
-}
-
-.htmlacademy-link:focus {
-  outline: 2px solid #af4fff;
-}
-
 .footer-social {
   margin-bottom: 61px;
   padding-left: 11px;
@@ -1430,9 +1417,18 @@ body {
   background-image: url("../images/twitter.svg");
 }
 
-.footer-social-ht {
+.htmlacademy-link {
+  float: right;
   width: 115px;
   height: 34px;
   background-image: url("../images/ht.svg");
 }
 
+.htmlacademy-link:hover {
+  color: #ffffff;
+  background-color: #444444;
+}
+
+.htmlacademy-link:focus {
+  outline: 2px solid #af4fff;
+}
